@@ -1,0 +1,16 @@
+
+---
+spring:
+  profiles: cloud
+
+
+endpoints:
+  restart: enabled
+
+eureka:
+  instance:
+    hostname: ${PREFIX:}${spring.application.name}.${application.domain:cfapps.io}
+    nonSecurePort: 80
+  client:
+    serviceUrl:
+      defaultZone: ${vcap.services.eureka-service.credentials.uri}/v2/
