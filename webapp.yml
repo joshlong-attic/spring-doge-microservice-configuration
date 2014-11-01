@@ -1,0 +1,9 @@
+server:
+  port: 9900
+
+zuul:
+  proxy:
+    mapping: /api
+    route:
+      account-service: /accounts
+      doge-service: /doges
