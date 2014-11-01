@@ -4,3 +4,16 @@ logging:
     com:
       netflix:
         discovery: INFO
+
+
+                
+---
+spring:
+  profiles: cloud
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${vcap.services.eureka-service.credentials.uri}/eureka/
+  instance:
+    hostname: ${APPLICATION_DOMAIN}
+    nonSecurePort: 80
