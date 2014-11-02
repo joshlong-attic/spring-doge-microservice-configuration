@@ -4,13 +4,10 @@ very-so-much-1: Pivotal Agile Cloudy
 server:
   port: 8089
 
----
-spring:
-  profiles: cloud
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${vcap.services.eureka-service.credentials.uri}/eureka/
+      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
   instance:
     hostname: ${APPLICATION_DOMAIN}
     nonSecurePort: 80
