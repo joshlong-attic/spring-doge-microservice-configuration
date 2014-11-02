@@ -9,7 +9,7 @@ logging:
                 
 ---
 spring:
-  profiles: cloud
+  profiles: eureka-client
 eureka:
   client:
     serviceUrl:
