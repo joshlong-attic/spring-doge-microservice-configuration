@@ -2,7 +2,8 @@ very-so-much-count: 1
 very-so-much-1: Pivotal Agile Cloudy
 
 server:
-  port: 8089
+  port: ${vcap.application.port:8089}
+
 
 eureka:
   client:
