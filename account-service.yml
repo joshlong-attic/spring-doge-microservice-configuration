@@ -1,5 +1,5 @@
 server:
-  port: ${vcap.application.port:8089}
+  port: ${vcap.application.port:9098}
 
 spring:
   jpa:
