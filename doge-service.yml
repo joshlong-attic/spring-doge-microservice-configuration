@@ -1,5 +1,5 @@
 very-so-much-count: 1
-very-so-much-1: London English WarmBeer
+very-so-much-1: London English Beer
 
 server:
   port: ${vcap.application.port:8089}
