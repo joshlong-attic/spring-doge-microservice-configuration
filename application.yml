@@ -1,5 +1,3 @@
 logging:
   level:
-    com:
-      netflix:
-        discovery: 'OFF'
+    com.netflix.discovery: 'OFF'
