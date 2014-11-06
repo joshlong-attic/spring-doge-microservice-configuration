@@ -4,9 +4,12 @@ server:
 zuul:
   proxy:
     mapping: /api
+    addProxyHeaders: true    
     route:
       account-service: /accounts
       doge-service: /doges
+
+
 
 eureka:
   client:
