@@ -1,5 +1,5 @@
 very-so-much-count: 1
-very-so-much-1: SpringX Agile WarmBeer
+very-so-much-1: Java Angel Microservices
 
 server:
   port: ${vcap.application.port:8089}
