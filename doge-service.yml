@@ -1,7 +1,7 @@
 very-so-much-count: 1
 very-so-much-1: London English ColdBeer
 
-very-so-much: Philips Advanced Technology
+very-so-much: Philips WebScale Cloud
 
 server:
   port: ${vcap.application.port:8089}
