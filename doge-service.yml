@@ -1,5 +1,5 @@
 
-very-so-much: Bulgaria Rakia Cloud
+very-so-much: Bulgaria Rakia Java2Days
 
 server:
   port: ${vcap.application.port:8089}
