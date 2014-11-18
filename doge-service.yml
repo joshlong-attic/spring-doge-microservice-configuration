@@ -1,7 +1,5 @@
-very-so-much-count: 1
-very-so-much-1: London English ColdBeer
 
-very-so-much: Philips WebScale Cloud
+very-so-much: Bulgaria Rakia Cloud
 
 server:
   port: ${vcap.application.port:8089}
