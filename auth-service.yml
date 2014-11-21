@@ -1,6 +1,6 @@
 server:
   port: ${vcap.application.port:8002}
-  contextPath: /auth
+  #contextPath: /auth
 
 
 spring:
