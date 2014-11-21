@@ -1,6 +1,7 @@
 
 
-very-so-much: flight plane bored
+very-so-much: Tumba Rakia Java2Days
+
 
 server:
   port: ${vcap.application.port:8089}
