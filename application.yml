@@ -1,3 +1,20 @@
+security:
+  ignored: /
+
+oauth2:
+  sso:
+    loginPath: /dashboard/login
+
+  client:
+    tokenUri: http://localhost:8002/auth/oauth/token
+    authorizationUri: http://localhost:8002/auth/oauth/authorize
+    clientId: acme
+    clientSecret: acmesecret
+  resource:
+    tokenInfoUri: http://localhost:8002/auth/oauth/check_token
+    id: openid
+    serviceId: ${PREFIX:}resource
+
 logging:
   level:
-    com.netflix.discovery: 'OFF'
+    org.springframework.security: DEBUG
