@@ -1,7 +1,6 @@
-very-so-much-count: 1
-very-so-much-1: London English ColdBeer
 
-very-so-much: A1 B1 C1, A B C
+
+very-so-much: flight plane bored
 
 server:
   port: ${vcap.application.port:8089}
