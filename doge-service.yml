@@ -4,7 +4,7 @@ very-so-much: Beth Cloudy OpenSource
 
 
 server:
-  port: ${vcap.application.port:8089}
+  port: ${PORT:8089}
 
 
 eureka:
