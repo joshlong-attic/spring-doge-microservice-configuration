@@ -1,13 +1,13 @@
 server:
   port: ${vcap.application.port:9900}
 
-# zuul:
-#   proxy:
-#     mapping: /api
-#     addProxyHeaders: true    
-#     route:
-#       account-service: /accounts
-#       doge-service: /doges
+zuul:
+  proxy:
+    mapping: /api
+    addProxyHeaders: true    
+    route:
+      account-service: /accounts
+      doge-service: /doges
 
 
 
